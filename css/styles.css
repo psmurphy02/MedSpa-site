@@ -1,0 +1,26 @@
+body {
+    font-family: "Dosis", sans-serif;
+}
+  
+body, html {
+    height: 100%
+}
+  
+.parallax {
+    background-image: url("../img/facialplaceholder.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+    color: white 
+}
+        
+/*.navbar-collapse {
+    justify-content: flex-end; 
+}*/
+      
