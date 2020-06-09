@@ -117,3 +117,10 @@ body {
 .bg5::after {
     background-image: url("../img/waiting_room.jpg");
 }
+/* #oddrow {
+    background-color: cadetblue;
+}
+
+#evenrow {
+    background-color: darkkhaki;
+} */
