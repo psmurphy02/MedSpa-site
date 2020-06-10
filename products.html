@@ -14,19 +14,32 @@
     <title>Products</title>
 </head>
 
-<body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-center">
-                    <a href="index.html"><img src="img/pmmd_logo.png" height="70" width="70" class="image-fluid" /></a>
+<body id="productPage">
+    <header class="jumbotron jumbotron-fluid" id="productJumbotron">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="img/pmmd_logo.png" height="70" width="70"></a>
                 </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+                        </ul>
+                    </div>     
             </div>
-        </div>
+        </nav>
+        <h1>Products</h1>
     </header>
 
     <div class="container">
-        <div class="row row-content alight-items-center" id="oddrow">
+        <div class="row row-content alight-items-center">
             <!-- <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Obagi Skin Care</h2>
             </div> -->
@@ -40,7 +53,8 @@
                 </div>
             </div>
         </div>
-        <div class="row row-content align-items-center" id="evenrow">
+        <hr/>
+        <div class="row row-content align-items-center">
             <div class="col">
                 <div class="media">
                     <div class="media-body ml-5 align-self-center">
@@ -53,20 +67,22 @@
                 </div>
             </div>
         </div>
-        <div class="row row-content alight-items-center" id="oddrow">
+        <hr/>
+        <div class="row row-content alight-items-center">
             <!-- <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Obagi Skin Care</h2>
             </div> -->
             <!-- <div class="col"> -->
                 <div class="media">
-                    <img class="col-sm-4 mr-3 d-flex img-thumbnail" src="img/skin_medica_logo.jpg"  height="150" width="200" alt="Skin Medica logo" />
+                    <img class="col-sm-4 mr-3 d-flex img" src="img/skin_medica_logo.jpg"  height="150" width="200" alt="Skin Medica logo" />
                         <div class="media-body mr-3 align-self-center">
                             <h3>Skin Medica</h3>
                             <p>Skin Medica skin care products are blah blah blah. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
                         </div>
                 </div>
             </div>
-            <div class="row row-content align-items-center" id="evenrow">
+            <hr/>
+            <div class="row row-content align-items-center">
                 <div class="col">
                     <div class="media">
                         <div class="media-body ml-5 align-self-center">

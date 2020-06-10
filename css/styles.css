@@ -15,6 +15,15 @@ body {
     background-size: cover;
 }*/
 
+header {
+    text-align: center;
+    color: white;
+}
+
+.navbar-item {
+    color: white;
+}
+
 .nav-link {
     margin-right: 1em !important;
     color: white;
@@ -98,6 +107,7 @@ body {
 
 .bg1::after {
     background-image: url("../img/homepage.jpg");
+    background-repeat: no-repeat;
     /*max-height: 100%;
     width: auto;*/
 }
@@ -117,6 +127,30 @@ body {
 .bg5::after {
     background-image: url("../img/waiting_room.jpg");
 }
+
+#serviceJumbotron {
+    background-image: url("../img/services_background.jpg");
+    padding-top: 20%;
+    padding-bottom: 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#productJumbotron {
+    background-image: url("../img/product_background.jpg");
+    padding-top: 20%;
+    padding-bottom: 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*#productPage {
+    background-image: url(../img/product_background.jpg)
+}*/
 /* #oddrow {
     background-color: cadetblue;
 }
