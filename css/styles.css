@@ -100,9 +100,18 @@ header {
     z-index: -1;
 }
 
-.static {
-    background: brown;
+.section_static {
+    background: #466882;
+    /*background: #826246;*/
+    color: white;
     height: 50vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contactSection {
+    padding-top: 10%;
 }
 
 .bg1::after {
@@ -146,6 +155,12 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+footer {
+    background-color: #466882;
+    /*background-color: #826246;*/
+    color: white;
 }
 
 /*#productPage {
