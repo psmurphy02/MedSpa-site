@@ -163,6 +163,11 @@ footer {
     color: white;
 }
 
+.modal-header, .modal-footer {
+    background-color: #466882;
+    color: white;
+}
+
 /*#productPage {
     background-image: url(../img/product_background.jpg)
 }*/
